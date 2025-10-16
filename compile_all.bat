@@ -1,0 +1,26 @@
+@echo off
+echo Compiling all C programs...
+
+echo Compiling Q1...
+gcc -o Q1/I222697_Q1.exe Q1/I222697_Q1.c
+
+echo Compiling Q2...
+gcc -o Q2/I222697_Q2.exe Q2/I222697_Q2.c
+
+echo Compiling Q3...
+gcc -o Q3/I222697_Q3.exe Q3/I222697_Q3.c
+
+echo Compiling Q4...
+gcc -o Q4/I222697_Q4.exe Q4/I222697_Q4.c
+
+echo Compiling Q5...
+gcc -o Q5/I222697_Q5.exe Q5/I222697_Q5.c
+
+echo Compiling Q6...
+gcc -o Q6/I222697_Q6.exe Q6/I222697_Q6.c
+
+echo Compiling Q7...
+gcc -o Q7/I222697_Q7.exe Q7/I222697_Q7.c
+
+echo All programs compiled successfully!
+pause
